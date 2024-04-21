@@ -1,1 +1,18 @@
-
+{
+  "name": "chat-rooms",
+  "version": "1.0.0",
+  "description": "Real-time chat rooms for friends at school",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
